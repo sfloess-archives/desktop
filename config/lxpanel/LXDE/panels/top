@@ -1,0 +1,193 @@
+# lxpanel <profile> config file. Manually editing is not recommended.
+# Use preference dialog in lxpanel to adjust config when you can.
+
+Global {
+  edge=top
+  monitor=0
+  height=26
+  autohide=1
+  widthtype=request
+  heightwhenhidden=0
+  align=center
+}
+Plugin {
+  type=dirmenu
+  Config {
+    path=/home/sfloess
+  }
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=/usr/share/applications/pcmanfm.desktop
+    }
+    Button {
+      id=reload-config.desktop
+    }
+    Button {
+      id=virt-manager.desktop
+    }
+    Button {
+      id=lxtask.desktop
+    }
+    Button {
+      id=htop.desktop
+    }
+    Button {
+      id=vncviewer.desktop
+    }
+  }
+}
+Plugin {
+  type=separator
+  Config {
+  }
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=firefox.desktop
+    }
+    Button {
+      id=google-chrome.desktop
+    }
+    Button {
+      id=start-tor-browser.desktop
+    }
+  }
+}
+Plugin {
+  type=separator
+  Config {
+  }
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=terminator.desktop
+    }
+    Button {
+      id=dev-screen.desktop
+    }
+    Button {
+      id=jboss-screen.desktop
+    }
+  }
+}
+Plugin {
+  type=separator
+  Config {
+  }
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=netbeans-8.2.desktop
+    }
+    Button {
+      id=chrome-fhbjgbiflinjbdggehcddcbncdddomop-Default.desktop
+    }
+  }
+}
+Plugin {
+  type=separator
+  Config {
+  }
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=freemind.desktop
+    }
+    Button {
+      id=daily-mindmaps.desktop
+    }
+    Button {
+      id=libreoffice-calc.desktop
+    }
+    Button {
+      id=libreoffice-impress.desktop
+    }
+    Button {
+      id=libreoffice-writer.desktop
+    }
+    Button {
+      id=xpad.desktop
+    }
+  }
+}
+Plugin {
+  type=separator
+  Config {
+  }
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=io.github.Hexchat.desktop
+    }
+    Button {
+      id=rocketchat.desktop
+    }
+  }
+}
+Plugin {
+  type=separator
+  Config {
+  }
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=lxmusic.desktop
+    }
+    Button {
+      id=kde4-org.kde.amarok.desktop
+    }
+  }
+}
+Plugin {
+  type=separator
+  Config {
+  }
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=redhat-desktop-terminator.desktop
+    }
+    Button {
+      id=redhat-desktop-dev-screen.desktop
+    }
+    Button {
+      id=redhat-desktop-jboss-screen.desktop
+    }
+  }
+}
+Plugin {
+  type=separator
+  Config {
+  }
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=redhat-laptop-terminator.desktop
+    }
+    Button {
+      id=redhat-laptop-dev-screen.desktop
+    }
+    Button {
+      id=redhat-laptop-jboss-screen.desktop
+    }
+  }
+}
