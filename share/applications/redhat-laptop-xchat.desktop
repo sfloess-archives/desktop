@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=XChat on redhat-laptop
+Comment=XChat on redhat-laptop
+Type=Application
+Icon=hexchat
+Exec=ssh -X -C redhat-laptop hexchat
+StartupNotify=true
+Terminal=flase
+Comment[en_US]=HexChat on redhat-laptop

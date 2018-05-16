@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Reload LXDE Config
+Comment=Reload LXDE Config
+Type=Application
+Icon=/home/sfloess/Images/reload.png
+Exec=/bin/lxpanelctl restart

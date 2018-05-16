@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Daily Mindmaps
+Comment=Daily Mindmaps
+Type=Application
+Icon=freemind
+Exec=/home/sfloess/Bin/mindmap.sh

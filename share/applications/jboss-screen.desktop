@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=JBoss Terminals
+Comment=JBoss Terminals
+Type=Application
+Comment=JBoss Terminals
+Icon=terminator
+Exec=terminator -l jboss

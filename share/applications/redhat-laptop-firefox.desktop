@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Firefox on redhat-laptop
+Comment=Firefox on redhat-laptop
+Type=Application
+Icon=firefox
+Exec=ssh -X -C redhat-laptop /opt/firefox/firefox

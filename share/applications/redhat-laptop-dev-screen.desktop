@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Development Terminals on redhat-laptop
+Comment=Development Terminals on redhat-laptop
+Type=Application
+Icon=terminator
+Exec=ssh -X -C redhat-laptop terminator -l redhat
+StartupNotify=true
+Terminal=flase

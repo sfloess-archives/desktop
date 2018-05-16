@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Netbeans on redhat-laptop
+Comment=Netbeans on redhat-laptop
+Type=Application
+Icon=/home/sfloess/Tools/netbeans-8.2/nb/netbeans.png
+Exec=ssh -X -C redhat-laptop netbeans.sh

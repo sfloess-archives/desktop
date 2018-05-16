@@ -1,0 +1,110 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  focus = mouse
+  suppress_multiple_term_dialog = True
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[jboss]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 3:27
+      size = 1434, 858
+      title = /bin/bash
+      type = Window
+    [[[child1]]]
+      active_page = 1
+      labels = strata-jboss, diagnostics-jboss
+      last_active_term = 1cc166aa-916c-427d-a4a5-da7a3499665a, 4dc18846-3905-48b4-88eb-a743bfb2fb4c
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[terminal2]]]
+      command = ~/Bin/strata-jboss-screen.sh
+      directory = ""
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 1cc166aa-916c-427d-a4a5-da7a3499665a
+    [[[terminal3]]]
+      command = ~/Bin/diagnostics-jboss-eap6-screen.sh
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 4dc18846-3905-48b4-88eb-a743bfb2fb4c
+  [[redhat]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:27
+      size = 1440, 858
+      title = /bin/bash
+      type = Window
+    [[[child1]]]
+      active_page = 4
+      labels = bash, dev, util, avalon-docs, puppet
+      last_active_term = a71f16db-194c-4670-a5ce-4f6bcd03904e, 23aebf29-c2c8-488f-a064-3a55aa413fe4, baaaebdf-129e-4518-9f9c-8fa190aa2003, 5eeafbdb-1603-4ca2-9463-1af2f242809a, 8e14e3fa-2f2b-4411-9309-76f21120e64a
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[terminal2]]]
+      command = ""
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = a71f16db-194c-4670-a5ce-4f6bcd03904e
+    [[[terminal3]]]
+      command = ~/Bin/redhat-dev-screen.sh
+      order = 1
+      parent = child1
+      profile = New Profile
+      type = Terminal
+      uuid = 23aebf29-c2c8-488f-a064-3a55aa413fe4
+    [[[terminal4]]]
+      command = ~/Bin/redhat-util-screen.sh
+      order = 2
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = baaaebdf-129e-4518-9f9c-8fa190aa2003
+    [[[terminal5]]]
+      command = ~/Bin/avalon-docs-screen.sh
+      order = 3
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 5eeafbdb-1603-4ca2-9463-1af2f242809a
+    [[[terminal6]]]
+      command = ~/Bin/puppet-screen.sh
+      order = 4
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 8e14e3fa-2f2b-4411-9309-76f21120e64a
+[plugins]
+[profiles]
+  [[default]]
+    copy_on_selection = True
+    cursor_color = "#ffffff"
+    font = Courier 10 Pitch 11
+    foreground_color = "#ffffff"
+    scrollback_infinite = True
+    use_system_font = False

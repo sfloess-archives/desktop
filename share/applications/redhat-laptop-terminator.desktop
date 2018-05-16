@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Terminator on redhat-laptop
+Comment=Terminator on redhat-laptop
+Type=Application
+Comment=Terminator on redhat-laptop
+Icon=terminator
+Exec=ssh -X -C redhat-laptop terminator

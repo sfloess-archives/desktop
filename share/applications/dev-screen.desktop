@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Development Terminals
+Comment=Development Terminals
+Type=Application
+Icon=terminator
+Exec=terminator -l redhat
+StartupNotify=true
+Terminal=flase

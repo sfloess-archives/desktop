@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=HTop on redhat-laptop
+Comment=HTop on redhat-laptop
+Type=Application
+Icon=htop
+Exec=ssh -X -C redhat-laptop xterm -bg black -fg white -e htop
+StartupNotify=true
+Terminal=flase

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Chrome on redhat-laptop
+Comment=Chrome on redhat-laptop
+Type=Application
+Icon=google-chrome
+Exec=ssh -X -C redhat-laptop google-chrome

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Rocket Chat on redhat-laptop
+Comment=Rocket Chat on redhat-laptop
+Type=Application
+Icon=rocketchat
+Exec=ssh -X -C redhat-laptop rocketchat
+StartupNotify=true
+Terminal=flase

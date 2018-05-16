@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Freemind on redhat-laptop
+Comment=Freemind on redhat-laptop
+Type=Application
+Icon=freemind
+Exec=ssh -C -X redhat-laptop mindmap.sh

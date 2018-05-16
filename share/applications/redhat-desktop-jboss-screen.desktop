@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=JBoss Terminals on redhat-desktop
+Comment=JBoss Terminals on redhat-desktop
+Type=Application
+Comment=JBoss Terminals on redhat-desktop
+Icon=terminator
+Exec=ssh -X -C redhat-desktop terminator -l jboss
